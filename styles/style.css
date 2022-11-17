@@ -1,0 +1,137 @@
+@import url(../fonts/inter.css);
+@import url(../styles/normalize.css);
+
+body {
+    width: 100%;
+    background-color: black;
+    width: 1280px;
+    margin: auto;
+}
+
+.page {
+    font-family: Inter, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    max-width: 1280px;
+    margin: 0 12.5rem;
+}
+
+.header {
+    height: 4.5rem;
+    margin: 3rem auto 0;
+    border-bottom: 1px solid #545454;
+    display: flex;
+}
+
+.header__logo {
+    height: 2rem;
+}
+
+.profile {
+    color: white;
+    display: flex;
+    height: 7.5rem;
+    margin-top: 2.5rem;
+}
+
+.profile__logo {
+    height: 7.5rem;
+    border-radius: 6.25rem;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto 2rem;
+}
+
+.profile__title {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: auto;
+}
+
+.profile__subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.profile__edit_button {
+    margin-top: 37px;
+    margin-left: 1.125rem;
+    height: 1.5rem;
+}
+
+.profile__edit_button:hover {
+    opacity: .6;
+    transition: 0.2s;
+}
+
+.profile__add_button {
+    margin: auto;
+    margin-right: 0;
+}
+
+.profile__add_button:hover {
+    opacity: .6;
+    transition: 0.2s;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.125rem;
+    margin: 3.1rem auto 0;
+    max-width: 100%;
+}
+
+.grid__block {
+    height: 22.5rem;
+}
+
+.grid__block_head {
+  max-height: 17.5rem;
+}
+
+.grid__image {
+    height: 17.5rem;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.grid__block_bottom {
+    background-color: white;
+    display: flex;
+    height: 5rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.grid__block_title {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: auto 0 auto 1.3rem;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+.footer {
+    margin: 3.75rem 0;
+}
+
+.footer__title {
+    color: #545454;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+}
