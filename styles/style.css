@@ -20,6 +20,27 @@ body {
     margin: 0 12.5rem;
 }
 
+.popup {
+    position: fixed;
+    background-color: black;
+    opacity: .5;
+    display: flex;
+    width: 55rem;
+    height: 100%;
+}
+
+.popup__container {
+    margin: auto;
+}
+
+.popup__form {
+    
+}
+
+.form__edit_profile {
+    
+}
+
 .header {
     height: 4.5rem;
     margin: 3rem auto 0;
