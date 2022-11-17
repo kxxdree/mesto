@@ -121,6 +121,16 @@ body {
     overflow: hidden; */
 }
 
+.grid__block_bottom_like_button {
+    height: 1.25rem;
+    margin: auto 1.875rem auto auto;
+}
+
+.grid__block_bottom_like_button:hover {
+    opacity: .6;
+    transition: 0.2s;
+}
+
 .footer {
     margin: 3.75rem 0;
 }
@@ -133,5 +143,5 @@ body {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    
+
 }
