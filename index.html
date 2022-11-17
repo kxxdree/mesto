@@ -12,14 +12,16 @@
         <section class="popup">
             <div class="popup__container">
                 <form class="popup__form">
-                    <fieldset class="form__edit_profile">
-                        <label for="first-name"></label>
-                        <input type="text" id="first-name" placeholder="Жак-Ив-Кусто">
-                    </fieldset>
-                    <fieldset class="form__edit_profile_subscription">
-                        <label for="subscription"></label>
-                        <input type="text" id="subscription" placeholder="Исследователь океана">
-                    </fieldset>
+                    <div>
+                    <p class="popup__form_title">Редактировать профиль</p>
+                    </div>
+                    <div class="popup__input">
+                    <input type="text" id="first-name" placeholder="Жак-Ив-Кусто" class="popup__input_name">
+                    <input type="text" id="subscription" placeholder="Исследователь океана" class="popup__input_subscription">
+                    </div>
+                    <div class="popup__submit">
+                    <img class="popup__submit_button" src="img/Submit Button.svg" alt="Submit Button">
+                    </div>
                 </form>
             </div>
         </section>
