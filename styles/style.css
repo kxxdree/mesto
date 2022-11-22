@@ -65,6 +65,12 @@ body {
     margin-top: 37px;
     margin-left: 1.125rem;
     height: 1.5rem;
+    width: 1.5rem;
+    background-image: url(../img/Edit\ Button.svg);
+    background-repeat: no-repeat;
+    background-color: black;
+    border: none;
+    padding: 0;
 }
 
 .profile__edit_button:hover {
