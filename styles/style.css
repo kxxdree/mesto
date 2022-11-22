@@ -82,6 +82,13 @@ body {
 .profile__add_button {
     margin: auto;
     margin-right: 0;
+    width: 9.375rem;
+    height: 3.125rem;
+    background-image: url(../img/Add\ Button.svg);
+    background-repeat: no-repeat;
+    background-color: black;
+    border: none;
+    padding: 0;
 }
 
 .profile__add_button:hover {
