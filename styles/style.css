@@ -118,18 +118,27 @@ body {
     font-weight: 900;
     font-size: 1.5rem;
     margin: auto 0 auto 1.3rem;
-    /* text-overflow: ellipsis;
+    width: 15rem;
+    text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden; */
+    overflow: hidden;
+    width: 12rem;
 }
 
-.grid__block_bottom_like_button {
-    height: 1.25rem;
-    margin: auto 1.875rem auto auto;
+.grid__like_button {
+    background-image: url(../img/Like\ Button.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    background-size: 100%;
+    height: 20px;
+    width: 23px;
+    margin: auto;
+    margin-right: 2rem;
 }
 
-.grid__block_bottom_like_button:hover {
-    opacity: .6;
+.grid__like_button:hover {
+    opacity: .5;
     transition: .2s;
     cursor: pointer;
 }
@@ -153,6 +162,7 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     display: flex;
+    visibility: hidden;
 }
 
 .popup__body {
